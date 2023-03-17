@@ -1,0 +1,48 @@
+body {
+background: url("fondo.jpeg");
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1cm;
+    border-radius: 20%;
+    border-color: black;
+    outline: #238 solid 10px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px aquamarine;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h2, p {
+        background-color: rgb(99, 212, 250);
+        border-left: 20px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0)
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Gajraj One', cursive;
+}
+
+#redes, #masdirec {
+transition-duration: 0.4s;
+background-color: black;
+border: royalblue;
+border-radius: 25%;
+color: white;
+cursor:auto;
+}
+
+#redes:hover, #masdirec:hover {
+background-color: white;
+color: black;
+}
